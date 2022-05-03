@@ -1,0 +1,50 @@
+
+@import 'variables';
+@import 'galeria';
+header {
+    height: 100vh;
+    clear:right;
+    color: black ;
+    padding: 10px 10px 10px 10px;
+    font: bold;
+    display: flexbox;
+    image {
+        width: 20%;
+        height: 35%;
+        padding: 10 10 0 0;
+    }
+    .imagen {
+        width: 20%;
+        height: 35%;
+        padding: 10 10 0 0;
+      }
+
+
+    background: linear-gradient(rgba(8, 8, 9, 0.4), rgba(87, 112, 166, 0.5)), url(images/header-img.jpeg) no-repeat center center /cover;
+
+/* navbar */
+.nav-menu {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
+  padding: 20px;
+  transition: all .7s;
+  }
+
+.primero {
+  width: 800px;
+  padding: 10px;
+  margin: 50px;
+  border: 2px solid indigo;
+}
+
+.segundo {
+  border: 2px solid indigo;
+  padding: 10px;
+  margin: 40px;
+
+
+}
+
+
+
+
+ }

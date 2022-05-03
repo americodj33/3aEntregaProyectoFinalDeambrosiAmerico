@@ -1,0 +1,32 @@
+
+/* galeria */   
+@import 'mapas';
+@import 'listas';
+
+.galeria-img {
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
+.galeria-img:hover {
+    transform: scale(1.05);
+}
+
+.first-row {
+    transform: translateX(-300px);
+    opacity: 0;
+    transition: all 2.5s;
+}
+
+.second-row {
+    transform: translateX(300px);
+    opacity: 0;
+    transition: all 2.5s;
+}
+
+.change .first-row, .change .second-row {
+    transform: translateX(0);
+    opacity: 1;
+}
+/* fin galeria */
+

@@ -1,0 +1,52 @@
+
+@import 'variables';
+@import 'galeria';
+
+.imagenblog {
+        width: 80%;
+        height: 65%;
+      }
+    .row {
+          display:flexbox;
+          flex-direction:row;
+          flex-wrap:wrap;
+          justify-content:center;
+        }
+         
+
+     .column {
+        margin: 0;
+        min-height: 80em;
+        padding: 1em;
+        width: 100%;
+        display:inline-block;
+            }
+     
+
+
+/* Servicios */
+                        
+                   
+details {
+          display: flex; 
+          width:300px;
+          margin:10px 0;
+          color: rgb(15, 13, 13);
+        }        
+summary {
+          display:block; 
+          background:coral;
+          color: black ;
+          border-radius:5px;
+          padding:5px;
+          cursor:pointer;font-weight:bold;
+          justify-content: center;
+        }    
+
+  p {
+    margin: 20px;
+    padding: 20px;
+    font-size: 80;
+    display: flex;
+    justify-content: center;
+  }
